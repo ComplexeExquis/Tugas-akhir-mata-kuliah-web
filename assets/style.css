@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'inter-medium'; 
+    src: url('assets/Inter-Medium.ttf') format('ttf'); 
+}
+@font-face {
+    font-family: 'inter-regular'; 
+    src: url('assets/Inter-Regular.ttf') format('ttf'); 
+}
+@font-face {
+    font-family: 'inter-bold'; 
+    src: url('assets/Inter-Bold.ttf') format('ttf'); 
+}
+@font-face {
+    font-family: 'inter-semibold'; 
+    src: url('assets/Inter-SemiBold.ttf') format('ttf'); 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit; 
+    cursor: pointer;  
+}
+  
+body {
+    font-family: "inter-medium", sans-serif;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 28px 0;
+    border-top: 1px solid #E6E6E6;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 12px 20px;
+}
+.button:hover{
+    cursor: pointer;
+}
+
+.button-profile {
+    padding: 12px 32px;
+    background-color: white;
+    border: 1px solid #999999;
+    color: #999999;
+    border-radius: 16px;
+}
+.button-profile:hover {
+    cursor: pointer;
+}
+.button-profile-clicked {
+    border: 1px solid black;
+    color: black;
+}
+
+#outer-container {
+    padding-top: 56px;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    justify-content: center;
+}
+#inner-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    padding: 32px; 
+    box-shadow: -4px 8px 20px rgba(0, 0, 0, 0.1);
+}
+.card-border {
+    border-radius: 12px;
+}
+
+.grey {
+    color: #828282;
+}
+
+.nama-kategori {
+    color: white;
+    margin-left: 32px;
+    margin-bottom: 16px;
+    font-size: 36px;
+}
+
+.bookmark-img:hover {
+    cursor: pointer;
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+    #inner-container {
+        
+        max-width: 960px;
+    }
+}     
