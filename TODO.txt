@@ -1,4 +1,0 @@
-1. sign up page
-
-
-2. recipe database
